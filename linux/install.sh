@@ -1,5 +1,5 @@
 #!/bin/bash
 mkdir -p ~/bin
-cp aio ~/bin
+cp $(dirname $0)/aio ~/bin
 aio version
 

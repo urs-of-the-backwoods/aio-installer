@@ -1,4 +1,3 @@
-mkdir -p ~/bin
-cp aio ~/bin
+cp $(dirname $0)/aio /usr/local/bin
 aio version
 
